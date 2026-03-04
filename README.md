@@ -1,6 +1,5 @@
 # RASLIK: Randomized Antipodal Search on Linearized Influence Kernel for Data-Centric LLM Unlearning
 
-Python 3.10+
 
 The implementation for the paper **“Randomized Antipodal Search Done Right for Data Pareto Improvement of LLM Unlearning”** (ICLR 2026).
 
