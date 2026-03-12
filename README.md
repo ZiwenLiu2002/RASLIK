@@ -166,7 +166,7 @@ Use a config that loads cached gradients and performs retrieval:
 * `postprocess.enable: true`
 
 ## Notes
-
+* This project is built on top of the RapidIn implementation. We acknowledge RapidIn as the codebase foundation, and the corresponding paper is cited below.
 * The retrieval stage assumes that the training dataset indexing is consistent with the IDs stored in the retrieval result JSON.
 * If `postprocess.enable` is turned on, the code automatically aggregates ranked IDs and maps them back to the training JSONL file.
 * For large models and datasets, make sure both GPU memory and disk space are sufficient.
@@ -181,6 +181,19 @@ author={Ziwen Liu and Huawei Lin and Yide Ran and Denghui Zhang and Jianwen Xie 
 booktitle={The Fourteenth International Conference on Learning Representations},
 year={2026},
 url={https://openreview.net/forum?id=Xn6EnJZghu}
+}
+```
+```bibtex
+@inproceedings{rapidin,
+  author       = {Huawei Lin and
+                  Jikai Long and
+                  Zhaozhuo Xu and
+                  Weijie Zhao},
+  title        = {Token-wise Influential Training Data Retrieval for Large Language Models},
+  booktitle    = {Proceedings of the 62nd Annual Meeting of the Association for Computational
+                  Linguistics, {ACL}},
+  address      = {Bangkok, Thailand},
+  year         = {2024},
 }
 ```
 
